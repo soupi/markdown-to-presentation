@@ -15,7 +15,7 @@ main :: IO ()
 main = do
   args <- getArgs
   if getNumFromList 2 args then (TIO.readFile (args !! 0) >>= return . HR.renderHtml  . (template (args !! 0)). (MD.markdown MD.def) >>= TIO.writeFile (args !! 1))
-    else putStrLn "[Usage: m2h <src> <dest>]"
+    else putStrLn "[Usage: m2p <src> <dest>]"
 
 getNumFromList :: Int -> [a] -> Bool
 getNumFromList 0 _ = True

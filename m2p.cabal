@@ -1,4 +1,4 @@
-Name:                markdown to presentation
+Name:               markdown-to-presentation
 Version:             0.0.1
 Synopsis:           markdown to html
 License:             BSD3
@@ -9,7 +9,7 @@ Category:           Text
 Build-type:          Simple
 Cabal-version:      >=1.2
 
-Executable m2h
+Executable m2p
   hs-source-dirs: src
   main-is: Main.hs
 
