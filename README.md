@@ -3,7 +3,7 @@ Markdown to presentation
 
 A simple tool for creating presentations from markdown
 
-How To:
+How To Use:
 ------
 1. Create a Markdown file and seperate slides with '---' (html's `<hr>` tag)
 
@@ -29,6 +29,14 @@ Actually, you can omit everything but:
 ```
 
 but then styling is up to you.
+
+How to Install m2p:
+-------------------
+use cabal to download dependencies and install m2p
+```
+cabal update && cabal install
+```
+
 
 Packages and Libraries used to create m2p:
 ------------------------------------------
