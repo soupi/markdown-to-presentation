@@ -1,12 +1,12 @@
 Markdown to presentation
 ========================
 
-A simple converter from markdown to html presentation
-
+A simple tool for creating presentations from markdown
 
 How To:
 ------
 1. Create a Markdown file and seperate slides with '---' (html's <hr> tag)
+
 2. Use m2p tool (haskell compiler and cabal needed to compile m2p) to create an HTML file from your Markdown and place it in the output folder
 
 You can also use any other md2html converter. just add the following to the html:
