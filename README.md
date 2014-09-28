@@ -5,9 +5,9 @@ A simple tool for creating presentations from markdown
 
 How To Use:
 ------
-1. Create a Markdown file and seperate slides with '---' (html's `<hr>` tag)
+1. Create a Markdown file and seperate slides with `---` (html's `<hr>` tag)
 
-2. Use m2p tool (haskell compiler and cabal needed to compile m2p) to create an HTML file from your Markdown and place it in the output folder
+2. Use _m2p_ tool (haskell compiler and cabal needed to compile m2p) to create an HTML file from your Markdown and place it in the output folder
 
 You can also use any other md2html converter. just add the following to the html:
 ```html
@@ -40,6 +40,6 @@ cabal update && cabal install
 
 Packages and Libraries used to create m2p:
 ------------------------------------------
-- [markdown](http://hackage.haskell.org/package/markdown)
-- [highlight.js](https://highlightjs.org/)
-- [a slighty modified github.css](https://gist.github.com/andyferra/2554919)
+- [markdown](http://hackage.haskell.org/package/markdown) - for markdown to html conversion
+- [highlight.js](https://highlightjs.org/) - for syntax highlight
+- [a slighty modified github.css](https://gist.github.com/andyferra/2554919) - for styling
