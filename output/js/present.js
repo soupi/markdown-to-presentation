@@ -29,8 +29,8 @@ $(function()
 	
 	var btn1 = $('<input type="button" value="Prev" onclick="prev()" />');
 	var btn2 = $('<input type="button" value="Next" onclick="next()" />');
-    btn2.prependTo($("body"));
     btn1.prependTo($("body"));
+    btn2.prependTo($("body"));
 	
 	$(".slide").hide();
 	$(".slide").first().addClass("current").show();
