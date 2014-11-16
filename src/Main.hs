@@ -27,6 +27,7 @@ template :: String -> H.Html -> H.Html
 template title htm = do
   H.docTypeHtml $ do
     H.head $ do
+      H.meta ! A.charset "utf-8"
       H.title (H.toHtml title)
       H.link ! A.rel "stylesheet" ! A.type_ "text/css" ! A.href "css/style.css"
       H.link ! A.rel "stylesheet" ! A.type_ "text/css" ! A.href "css/github.css"
