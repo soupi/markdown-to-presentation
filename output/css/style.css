@@ -23,7 +23,8 @@ body {
 }
 
 .container ul, .container p {
-	margin-left: 30%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 ul * {
 	margin-left: 0% !important;
@@ -32,3 +33,4 @@ ul * {
 .container img {
 	margin-left: -30% !important;
 }
+
