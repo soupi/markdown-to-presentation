@@ -1,7 +1,15 @@
 Markdown to presentation
 ========================
 
-A simple tool for creating presentations from markdown
+A simple tool for creating presentations from markdown files.
+
+
+License
+=======
+
+m2p is licensed under BSD3 license. This refers to `src/Main.hs` and `output/js/present.js` files.
+
+**Note:** any other content is not a part of m2p and is not licensed by it.
 
 How To Use:
 ------
@@ -22,7 +30,7 @@ You can also use any other md2html converter. just add the following to the html
 <script src="js/present.js"></script>
 ```
 
-Actually, you can omit everything but:
+Actually, you can omit everything except:
 ```html
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/present.js"></script>
