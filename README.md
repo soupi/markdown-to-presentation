@@ -11,6 +11,13 @@ md2p is licensed under BSD3 license. This refers to `src/Main.hs` and `output/js
 
 **Note:** any other content is not a part of md2p and is not licensed by it.
 
+Example
+-------
+
+- [Source](https://github.com/soupi/markdown-to-presentation/blob/gh-pages/input/Example.md)
+- [Result](http://soupi.github.io/markdown-to-presentation/)
+
+
 How To Use:
 ------
 1. Create a Markdown file and seperate slides with `---` (html's `<hr>` tag)
