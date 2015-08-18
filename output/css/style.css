@@ -30,6 +30,7 @@ ul * {
 }
 
 .container img {
-	margin-left: -30% !important;
+	display: block;
+    margin: auto;
 }
 

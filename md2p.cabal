@@ -1,6 +1,6 @@
-Name:               markdown-to-presentation
-Version:             0.0.1
-Synopsis:           markdown to html
+Name:               md2p
+Version:             0.0.2
+Synopsis:           convert markdown documents to html presentation
 License:             BSD3
 Author:              soupi
 Maintainer:         soupiral@gmail.com
@@ -9,7 +9,7 @@ Category:           Text
 Build-type:          Simple
 Cabal-version:      >=1.2
 
-Executable m2p
+Executable md2p
   hs-source-dirs: src
   main-is: Main.hs
 

@@ -7,15 +7,15 @@ A simple tool for creating presentations from markdown files.
 License
 =======
 
-m2p is licensed under BSD3 license. This refers to `src/Main.hs` and `output/js/present.js` files.
+md2p is licensed under BSD3 license. This refers to `src/Main.hs` and `output/js/present.js` files.
 
-**Note:** any other content is not a part of m2p and is not licensed by it.
+**Note:** any other content is not a part of md2p and is not licensed by it.
 
 How To Use:
 ------
 1. Create a Markdown file and seperate slides with `---` (html's `<hr>` tag)
 
-2. Use _m2p_ tool (haskell compiler and cabal needed to compile m2p) to create an HTML file from your Markdown and place it in the output folder
+2. Use _md2p_ tool (haskell compiler and cabal needed to compile md2p) to create an HTML file from your Markdown and place it in the output folder
 
 You can also use any other md2html converter. just add the following to the html:
 ```html
@@ -38,9 +38,9 @@ Actually, you can omit everything except:
 
 but then styling is up to you.
 
-How to Install m2p:
+How to Install md2p:
 -------------------
-use cabal to download dependencies and install m2p
+use cabal to download dependencies and install md2p
 ```
 cabal update && cabal install
 ```
