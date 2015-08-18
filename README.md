@@ -7,8 +7,10 @@ A simple tool for creating presentations from markdown files.
 Example
 -------
 
-On input folder and output folder.
+- [Source](https://github.com/soupi/markdown-to-presentation/blob/gh-pages/input/Example.md)
+- [Result](http://soupi.github.io/markdown-to-presentation/)
 
+-------
 
 License
 =======
