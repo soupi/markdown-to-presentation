@@ -4,6 +4,12 @@ Markdown to presentation
 A simple tool for creating presentations from markdown files.
 
 
+Example
+-------
+
+On input folder and output folder.
+
+
 License
 =======
 
