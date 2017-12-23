@@ -1,17 +1,51 @@
-*.swp
-*~
+src/Language/Shin/TypeChecker.hs
 
-# Created by https://www.gitignore.io
+# Created by https://www.gitignore.io/api/haskell,emacs
 
 ### Haskell ###
 dist
+dist-*
 cabal-dev
 *.o
 *.hi
 *.chi
 *.chs.h
-.virtualenv
+*.dyn_o
+*.dyn_hi
+.hpc
 .hsenv
 .cabal-sandbox/
 cabal.sandbox.config
-cabal.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+.HTF/
+
+
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
